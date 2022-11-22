@@ -1,0 +1,486 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/background-site.jpeg');
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+p, h1, a, div {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background: rgb(26, 26, 41);
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgb(24,24,36);
+}
+
+.nav > a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 50px;
+    color: white;
+    transition: all 0.6s;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav:hover > a {
+    color: #7562E0;
+    transition: all 0.6s;
+}
+
+.name {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    color:#7562E0;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.hello {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+.but {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.knopki {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    background: rgb(26,26,41);
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.6s;
+    cursor: pointer;
+    border: 2px solid #7562E0;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.knopki:hover {
+    background: rgb(117,98,224);
+    transition: all 0.6s;
+}
+
+.personlogo {
+    width: 25px;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portret {
+    width: 300px;
+}
+
+.bg-behind {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7562E0;
+    border-radius: 20%;
+}
+
+.null-place {
+    background: rgb(24,24,36);
+    width: 100%;
+    height: 80px;
+}
+
+.aboutme {
+    width: 100%;
+    height: auto;
+    background: rgb(26, 26, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.languages {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    background: rgb(189,189,189);
+    font-size: 25px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 3px 5px 10px black;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.oneofthem {
+    width: 300px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px black;
+}
+
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(26, 26, 41);
+}
+
+.allworks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.works {
+    display: flex;
+    width: 350px;
+    height: auto;
+    margin-right: 30px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(49,49,63);
+    box-shadow: 3px 5px 10px black;
+}
+
+.workimg {
+    width: 300px;
+    margin-top: 20px;
+    border: 2px solid #7562E0;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+.bg-slidersphone {
+    border-radius: 10px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/sliderphones.png');
+}
+
+.bg-wallpapers {
+    border-radius: 10px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/wallpapers.png');
+}
+
+.bg-anime {
+    border-radius: 10px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/animecards.png');
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.social {
+    display: flex;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.white {
+    color: white;
+}
+
+.violet {
+    color: #7562E0;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num {
+    font-size: 100px;
+    margin-right: 50px;
+    color: #7562E0;
+}
+
+.myname {
+    font-size: 60px;
+}
+
+.grey-box {
+    border: 2px solid #F5F5F5;
+    color: white;
+    box-sizing: border-box;
+}
+
+.purple {
+    color: rgb(117,98,224);
+}
+
+.oneofpicimg {
+    width: 50px;
+    border-radius: 50%;
+    background: #7562E0;
+}
+
+.purple-box {
+    border: 2px solid #7562E0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.h1-boxes {
+    text-align: center; 
+    width: 250px; 
+    font-size: 25px;
+}
+
+.p-boxes {
+    text-align: center; 
+    width: 250px;
+    text-align: center;
+}
+
+.granitsa {
+    width: 100%;
+    height: 80px;
+    background: #181824;
+}
+
+.feature {
+    display: inline-block;
+    width: 100%;
+    text-align: start;
+    margin-left: 100px;
+}
+
+.ochemrech {
+    display: inline-block;
+    width: 100%;
+    text-align: start;
+    color: white;
+    margin-left: 100px;
+}
+
+.h1-portfolio {
+    color: #7562E0;
+    text-align: start;
+    width: 100%;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.workdescribe {
+    color: white;
+    text-align: start;
+    margin-left: 25px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    width: 320px;
+    height: 60px;
+}
+
+.tyktyk > a {
+    display: inline-block;
+    background: rgb(49,49,63);
+    text-align: center;
+    margin-right: 10px;
+    color: white;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1.5px solid rgb(117,98,224);
+    font-size: 15px;
+    transition: all 0.6s;
+}
+
+.tyktyk:hover > a {
+    background-color: #7562E0;
+    transition: all 0.6s;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.connecth1 {
+    display: inline-block;
+    width: 100%;
+    text-align: start;
+    font-weight: bolder;
+}
+
+.stsfd {
+    display: inline-block;
+    width: 100%;
+    text-align: start;
+    color: white;
+}
+
+.fb {
+    background-image: url('../img/fb_icon.png');
+}
+
+.inst {
+    background-image: url('../img/instagram_icon.png');
+}
+
+.tg {
+    background-image: url('../img/telegram_icon.png');
+}
+
+.linkedin {
+    background-image: url('../img/linkedin_icon.png');
+}
+
+.social_links {
+    background-position: center;
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.h1forma {
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    text-align: start;
+}
+
+.describeme {
+    color: rgb(140, 140, 148);
+}
+
+.dsgn-input {
+    background-color: #23231f;
+    margin: 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    text-align: start;
+    color: white;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(50,50,63);
+}
+
+.send {
+    width: 100px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgb(117,98,224);
+    color: white;
+    font-family: 'Poppins';
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.forma-style {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
